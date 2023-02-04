@@ -30,6 +30,7 @@ npm install
 
 ```
 npx cypress open
+OR
 npm run test
 ```
 
