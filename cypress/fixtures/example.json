@@ -1,0 +1,12 @@
+{
+  "url": "https://apply.workable.com/atlantbh/j/DBAD16DBB3/apply/",
+  "firstName": "Amina",
+  "lastName": "Banda",
+  "email": "banda.amina2@gmail.com",
+  "wrongEmail": "testemail",
+  "wrongEmailError": "This must be a valid email.",
+  "phoneNumber": "062172333",
+  "address": "Ilije Engela 16",
+  "fileToUpload": "../../../Desktop/Cypress-Testing/atlantbh-intership/cypress/fixtures/Amina_Banda_CV.pdf",
+  "howDidYouHear":"Friend told me about AtlantBH intership."
+}
