@@ -25,7 +25,9 @@ describe("template spec", () => {
       .selectFile(data.CV, { force: true });
 
     //Selects QA checkbox
-    cy.get("input[type=radio]").eq(1).check();
+    cy.get("input[type=radio]").eq(1).check()
+    cy.get("input[type=radio]").eq(12).check();
+
 
     //Cover Letter Upload
     cy.get("input[type=file]")
@@ -40,10 +42,13 @@ describe("template spec", () => {
     cy.get("input[type=radio]").eq(17).click();
 
     //Wait until files uploaded
-    cy.wait(50000)
+    cy.wait(38000)
 
     //Submit intership application
-    // cy.get('.styles--10XMc').click();
+    cy.get('.styles--10XMc').click();
+
+    //Check if application success
+    // cy.get().should('contain', 'Application Submitted Successfully')
 
   });
 });
