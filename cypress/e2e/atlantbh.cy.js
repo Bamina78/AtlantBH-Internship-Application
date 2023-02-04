@@ -22,7 +22,7 @@ describe("template spec", () => {
     //CV File Upload
     cy.get("input[type=file]")
       .eq(1)
-      .selectFile(data.fileToUpload, { force: true });
+      .selectFile(data.CV, { force: true });
 
     //Selects QA checkbox
     cy.get("input[type=radio]").eq(1).check();
@@ -30,7 +30,7 @@ describe("template spec", () => {
     //Cover Letter Upload
     cy.get("input[type=file]")
       .eq(2)
-      .selectFile(data.fileToUpload, { force: true });
+      .selectFile(data.CoverLetter, { force: true });
 
     cy.get("#QA_5870542").type(data.howDidYouHear);
 
