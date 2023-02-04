@@ -6,8 +6,6 @@ E2E Testing AtlantBH Internship Application Form with Cypress
 These instructions will help you start project up and running on
 your local machine for development and testing purposes. 
 
-##### Prerequisites
-
 ## System requirements
 Operating System
 
